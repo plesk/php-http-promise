@@ -1,5 +1,5 @@
 {
-    "name": "php-http/promise",
+    "name": "plesk/php-http-promise",
     "description": "Promise used for asynchronous HTTP requests",
     "license": "MIT",
     "keywords": ["promise"],
@@ -16,6 +16,9 @@
     ],
     "require": {
         "php" : "^7.1 || ^8.0"
+    },
+    "replace": {
+        "php-http/promise": "~1.2.0"
     },
     "require-dev": {
         "friends-of-phpspec/phpspec-code-coverage" : "^4.3.2 || ^6.3",
