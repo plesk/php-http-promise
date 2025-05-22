@@ -1,5 +1,5 @@
 {
-    "name": "php-http/promise",
+    "name": "plesk/php-http-promise",
     "description": "Promise used for asynchronous HTTP requests",
     "license": "MIT",
     "keywords": ["promise"],
